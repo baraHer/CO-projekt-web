@@ -1,43 +1,16 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-}
-
-section {
-  height: 100%;
-  position: relative;
-}
-
-h1 {
-  position: absolute;
-  top: 35%;
-  right: 8rem;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 8rem;
-  font-weight: 700;
-  text-align: right;
-  color: rgb(95, 95, 95);
-  margin: 0;
+  font-family: 'Phudu', cursive;
 }
 
 nav {
-  position: absolute;
-  top: 0;
-  background-color: rgb(255, 255, 255);
   display: flex;
-  z-index: 1;
 }
 
-nav > div {
-  padding: 1.75rem 2rem;
+nav > a {
+  padding: 1rem;
 }
 
-nav > div > a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: black;
-}
-
-.background-picture {
-  height: 100%;
+nav > div > a > img {
+  width: 1.5rem;
+  padding: 0.75rem;
 }
