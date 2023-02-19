@@ -1,5 +1,7 @@
 body {
   font-family: 'Phudu', cursive;
+  background-color: black;
+  color: whitesmoke;
 }
 
 nav {
@@ -7,10 +9,22 @@ nav {
 }
 
 nav > a {
-  padding: 1rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
+}
+
+nav > a:hover {
+  border: 2px solid rgb(255, 255, 255);
+  padding: calc(0.6rem - 2px);
+  cursor: pointer;
 }
 
 nav > div > a > img {
-  width: 1.5rem;
-  padding: 0.75rem;
+  width: 1.2rem;
+  padding: 1.225rem 0.6rem;
+}
+
+nav > div > a > img:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
